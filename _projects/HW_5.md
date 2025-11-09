@@ -48,5 +48,5 @@ After switching between atmospheric variables using the dropdown, we can see imp
 </div>
 
 <div class="right">
-{% include elements/button.html link="https://github.com/tinayang922/tinayang922.github.io/blob/main/python_notebooks/Workbook1.ipynb" text="The Analysis" %}
+{% include elements/button.html link="https://github.com/tinayang922/tinayang922.github.io/blob/main/python_notebooks/Workbook.ipynb" text="The Analysis" %}
 </div>
