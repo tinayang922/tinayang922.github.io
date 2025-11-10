@@ -30,15 +30,15 @@ The heatmap demonstrates the seasonal pattern of UV index. The values are high i
 # Temperature and Atmospheric Conditions by Precipitation Type
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/precip_type.json" style="width: 100%"></vegachart>
-### Description:
+### Description
 The second plot allows users to examine how mid temperature in fahrenheit can be related to different precipitation types, rain and snow, in the year after 2000. The year is limited to after 2000 to ensure modern climatological patterns are reflected . A dropdown button is created, enabling users to choose their atmospheric variables to observe how precipitation probably, precipitation intensity, and wind speed relates to changes in temperature across different weather conditions. 
-### Encodings:
+### Encodings
 For this scatter plot, I applied circles to represent individual observations with size 60 and adjusted the opacity to 0.8 for better visibility. The mid temperature on the x-axis is the average daily temperature in Fahrenheit. On the y-axis, it displays the atmospheric variables that can be chosen from the dropdown by the users with the bound parameter, y_var. Two colors are encoded for the precipitation types with categorical hues, so users can differentiate between rain and snow. Tooltips are added to display other important contextual information such as state, month, year, and exact atmospheric numerical values, so users can read the desired information directly when hovering their mouse on the plot. 
-### Transformations:
+### Transformations
 Two transformations are included in this plot. Transform_fold is applied to reshape the dataset so multiple atmospheric variables can be toggled on the same y-axis. Transform_filter ensures only the selected variable is displayed when users switch dropdown options. Another filter applies on precipitation type so it removes  missing precipitation types to avoid NaN values shown on the legend and scatter plot. 
-### Interactivity:
+### Interactivity
 Besides the zooming through .interactive() that allows users to observe clusters of similar temperatures or zoom out for overall climate trends, another interactivity in this plot is the dropdown menu. Users can switch between precipitation probability, precipitation intensity, and wind speed, allowing users to compare and explore how these atmospheric variables behave in relation to mid temperature and precipitation types. Hover tooltips provides contextual details such as state, month, year, and exact numeric values of the chosen atmospheric variables. Including this feature not only transforms this plot from a static scatter plot into an interactive analytical tool but also offers users more details that interest them. 
-### Analysis: 
+### Analysis
 After switching between atmospheric variables using the dropdown, we can see important trends and observations. In precipitation probability, snow events tend to occur at lower temperatures, while rain events dominate higher temperatures. Also, slightly more rain points are clustered around higher probability values, showing that rain is more common in warmer conditions. In wind speed, both rain and snow show moderate wind speeds across temperature ranges, but rain generally occurs over a wider temperature span. Both rain and snow show different wind speeds across the same temperature ranges, but rain occurs over a wider temperature span. As for precipitation intensity, slightly more rain events show slightly higher intensity values than snow, but both of the events have low intensity overall. 
 
 <!-- these are written in a combo of html and liquid --> 
