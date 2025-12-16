@@ -16,19 +16,8 @@ custom_js:
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/uv_state_month.json" style="width: 80%"></vegachart>
 ### Description
-In the first plot, I am highlighting how University of Illinois buildings have been constructed over time from 1800 to 2025. 
-Detailed information of the building is included such as the total floors, the square footage, and the usage types. 
-On the top, a linked histogram with Year Constructed will show how many buildings were built within every 5 years,
-which helps smooth out year-to-year fluctuations and makes long-term construction patterns easier to see.
-By clicking a bar, it will highlight the time range in both the histogram and the scatterplot via opacity and color changes. 
-For users, it is easier for them to focus on specific construction eras. Scatterplot is applied with circle marks where 
-the x-axis is Year Constructed and the y-axis is Total Floors. The size of the circle marks are encoding Square Footage so that 
-buildings with larger square footage will visually stand out to the viewers. As for the design choices, usage description is 
-encoded with colors to compare how education, residential, and other types of buildings are distributed across time and number of floors. 
-Tooltips are applied to allow users to see location context and building information on hover. 
-For users, it is easier for them to focus on specific construction eras. 
-If I had more time, I would experiment with log-scaled encodings for square footage to reduce overlap in years with many buildings and add 
-more filters like dropdown buttons to let users explore specific campuses or usage types. 
+In the first plot, I am highlighting how University of Illinois buildings have been constructed over time from 1800 to 2025. Detailed information of the building is included such as the total floors, the square footage, and the usage types. 
+On the top, a linked histogram with Year Constructed will show how many buildings were built within every 5 years,which helps smooth out year-to-year fluctuations and makes long-term construction patterns easier to see. By clicking a bar, it will highlight the time range in both the histogram and the scatterplot via opacity and color changes. For users, it is easier for them to focus on specific construction eras. Scatterplot is applied with circle marks where the x-axis is Year Constructed and the y-axis is Total Floors. The size of the circle marks are encoding Square Footage so that buildings with larger square footage will visually stand out to the viewers. As for the design choices, usage description is encoded with colors to compare how education, residential, and other types of buildings are distributed across time and number of floors. Tooltips are applied to allow users to see location context and building information on hover. For users, it is easier for them to focus on specific construction eras. If I had more time, I would experiment with log-scaled encodings for square footage to reduce overlap in years with many buildings and add more filters like dropdown buttons to let users explore specific campuses or usage types. 
 
 
 # In Use Buildings Acquired After 2000 by Government Department
