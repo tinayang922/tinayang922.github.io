@@ -1,7 +1,7 @@
 ---
 name: Interactive Visualization of Univeristy of Illinois Building
 tools: [Python, HTML, vega-lite]
-image: assets/pngs/uv_index.png
+image: assets/pngs/gov_building.png
 description: Vega-lite Interactive Visualization
 custom_js:
   - vega.min
