@@ -2,7 +2,7 @@
 name: Homework 5
 tools: [Python, HTML, vega-lite]
 image: assets/pngs/uv_index.png
-description: Weiting's HW 5 vega-lite interactive visualization
+description: Vega-lite interactive visualization
 custom_js:
   - vega.min
   - vega-lite.min
