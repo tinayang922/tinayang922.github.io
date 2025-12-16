@@ -1,8 +1,8 @@
 ---
-name: Homework 5
+name: Interactive Visualization of UV Index and Atmospheric Conditions
 tools: [Python, HTML, vega-lite]
 image: assets/pngs/uv_index.png
-description: Vega-lite interactive visualization
+description: Vega-lite Interactive Visualization
 custom_js:
   - vega.min
   - vega-lite.min
