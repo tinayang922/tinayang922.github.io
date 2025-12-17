@@ -22,7 +22,7 @@ On the top, a linked histogram with Year Constructed will show how many building
 
 # In Use Buildings Acquired After 2000 by Government Department
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/gov_building.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/json/gov_building.json" style="width: 80%"></vegachart>
 ### Description
 In the second plot, I am highlighting how many in-use government buildings acquired after 2000 are managed by different Illinois departments and how each department's acquisitions change over time. The horizontal bar chart on the left shows the total number of buildings acquired by each department. The departments are sorted by count so the departments having more properties stand out. I removed the “Department of” prefix from labels to keep the y-axis concise and easier to read. Color encodes the departments, and interactive selection is applied on all bars so the chosen department is emphasized in color while others fade to light gray. This selection is linked to the line chart on the right to demonstrate the number of buildings acquired per year for only the selected department. This will make it easier for users to read the temporal trends without all lines clustered all together. Tooltips are included so users can easily view detailed information about each acquisition, including the department and the number of buildings acquired. If I had more time, I would use County or City data and add filters on them to support more localized analysis, which could examine how each department's building acquisitions and related budgeting differ across regions.
 
